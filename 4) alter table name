@@ -1,0 +1,2 @@
+ALTER Students TABLE
+RENAME TO Teacher;
