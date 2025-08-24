@@ -1,0 +1,24 @@
+CREATE TABLE STUDENTS (
+    StudentID NUMBER PRIMARY KEY,        
+    Name VARCHAR2(50),   
+    Age NUMBER,                            
+    Grade VARCHAR2(10),                
+    City VARCHAR2(50)             
+);
+
+INSERT INTO STUDENTS ( StudentID, Name, Age, Grade, City)
+VALUES( 1,'Ayesha',20,'A','Lahore');
+
+INSERT INTO STUDENTS ( StudentID, Name, Age, Grade, City)
+VALUES( 2,'Ali',22,'B','Karachi');
+
+INSERT INTO STUDENTS ( StudentID, Name, Age, Grade, City)
+VALUES( 3,'Maria',21,'A','Faisalabad');
+
+INSERT INTO STUDENTS ( StudentID, Name, Age, Grade, City)
+VALUES( 4,'Maryam',23,'C','Islamabad');
+
+INSERT INTO STUDENTS ( StudentID, Name, Age, Grade, City)
+VALUES( 5,'Amir',20,'B','Multan');
+
+SELECT * FROM  STUDENTS;
